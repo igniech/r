@@ -1,0 +1,17 @@
+one:
+  imie: MyString
+  nazwisko: MyString
+  stanowisko: MyString
+  telefon1: 1
+  telefon2: 1
+  mail: MyString
+  miasto: MyString
+
+two:
+  imie: MyString
+  nazwisko: MyString
+  stanowisko: MyString
+  telefon1: 1
+  telefon2: 1
+  mail: MyString
+  miasto: MyString

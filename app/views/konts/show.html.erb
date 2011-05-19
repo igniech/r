@@ -1,0 +1,36 @@
+<% title "Kont" %>
+
+<p>
+  <strong>Imie:</strong>
+  <%= @kont.imie %>
+</p>
+<p>
+  <strong>Nazwisko:</strong>
+  <%= @kont.nazwisko %>
+</p>
+<p>
+  <strong>Stanowisko:</strong>
+  <%= @kont.stanowisko %>
+</p>
+<p>
+  <strong>Telefon1:</strong>
+  <%= @kont.telefon1 %>
+</p>
+<p>
+  <strong>Telefon2:</strong>
+  <%= @kont.telefon2 %>
+</p>
+<p>
+  <strong>Mail:</strong>
+  <%= @kont.mail %>
+</p>
+<p>
+  <strong>Miasto:</strong>
+  <%= @kont.miasto %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_kont_path(@kont) %> |
+  <%= link_to "Destroy", @kont, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", konts_path %>
+</p>

@@ -1,0 +1,2 @@
+module KontsHelper
+end

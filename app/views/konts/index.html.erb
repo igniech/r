@@ -1,0 +1,29 @@
+<% title "Konts" %>
+
+<table>
+  <tr>
+    <th>Imie</th>
+    <th>Nazwisko</th>
+    <th>Stanowisko</th>
+    <th>Telefon1</th>
+    <th>Telefon2</th>
+    <th>Mail</th>
+    <th>Miasto</th>
+  </tr>
+  <% for kont in @konts %>
+    <tr>
+      <td><%= kont.imie %></td>
+      <td><%= kont.nazwisko %></td>
+      <td><%= kont.stanowisko %></td>
+      <td><%= kont.telefon1 %></td>
+      <td><%= kont.telefon2 %></td>
+      <td><%= kont.mail %></td>
+      <td><%= kont.miasto %></td>
+      <td><%= link_to "Show", kont %></td>
+      <td><%= link_to "Edit", edit_kont_path(kont) %></td>
+      <td><%= link_to "Destroy", kont, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Kont", new_kont_path %></p>
