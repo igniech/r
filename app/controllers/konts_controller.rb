@@ -14,7 +14,7 @@ class KontsController < ApplicationController
   def create
     @kont = Kont.new(params[:kont])
     if @kont.save
-      redirect_to @kont, :notice => "Successfully created kont."
+      redirect_to @kont, :notice => "Utworzono nowy kontakt."
     else
       render :action => 'new'
     end
@@ -27,7 +27,7 @@ class KontsController < ApplicationController
   def update
     @kont = Kont.find(params[:id])
     if @kont.update_attributes(params[:kont])
-      redirect_to @kont, :notice  => "Successfully updated kont."
+      redirect_to @kont, :notice  => "Kontakt zaktualizowany."
     else
       render :action => 'edit'
     end
@@ -36,6 +36,6 @@ class KontsController < ApplicationController
   def destroy
     @kont = Kont.find(params[:id])
     @kont.destroy
-    redirect_to konts_url, :notice => "Successfully destroyed kont."
+    redirect_to konts_url, :notice => "Kontakt usuniêty."
   end
 end

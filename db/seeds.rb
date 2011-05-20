@@ -8,4 +8,4 @@
 #
 Kont.create(:imie => 'Katarzyna', :nazwisko => 'Tusk', :stanowisko => 'Specjalista ds rozwoju', :telefon1 => '586235854', :telefon2 => '639456987', :mail => 'katarzyna.tusk@bla.pl', :miasto => 'Gdynia')
 
-Kont.create(:imie => 'Tadeusz', :nazwisko => 'Bobiski', :stanowisko => 'Dyrektor Sprzeda¿y', :telefon1 => '226263854', :telefon2 => '639453987', :mail => 'tadeusz.bobiski@bla.pl', :miasto => 'Warszawa')
+Kont.create(:imie => 'Tadeusz', :nazwisko => 'Bobiski', :stanowisko => 'Dyrektor SprzedaÅ¼y', :telefon1 => '226263854', :telefon2 => '639453987', :mail => 'tadeusz.bobiski@bla.pl', :miasto => 'Warszawa')

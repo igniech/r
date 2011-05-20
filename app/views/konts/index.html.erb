@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Imie</th>
+    <th>Imię</th>
     <th>Nazwisko</th>
     <th>Stanowisko</th>
     <th>Telefon1</th>
@@ -19,11 +19,9 @@
       <td><%= kont.telefon2 %></td>
       <td><%= kont.mail %></td>
       <td><%= kont.miasto %></td>
-      <td><%= link_to "Show", kont %></td>
-      <td><%= link_to "Edit", edit_kont_path(kont) %></td>
-      <td><%= link_to "Destroy", kont, :confirm => 'Are you sure?', :method => :delete %></td>
+      <td><%= link_to "Pokaż", kont %></td>
     </tr>
   <% end %>
 </table>
 
-<p><%= link_to "New Kont", new_kont_path %></p>
+<p><%= link_to "Dodaj kontakt", new_kont_path %></p>
