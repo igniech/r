@@ -4,7 +4,6 @@ gem 'rails', '3.0.7'
 gem 'sqlite3'
 gem 'thin'
 gem 'simple_form'
-gem 'kaminari'
 
 group :development do
   gem 'nifty-generators'

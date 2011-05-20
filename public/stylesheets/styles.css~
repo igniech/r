@@ -105,7 +105,7 @@ nav ul li {
 nav ul li a {
 	display: block;
 	margin-right: 20px;
-	width: 140px;
+	width: 170px;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 44px;
@@ -179,102 +179,7 @@ nav ul li.subscribe a {
 	-webkit-border-radius: 10px;
 	}
 
-/* content and sidebar layout */
 
-#content {
-	position: relative;
-	margin-top: 50px;
-	float: left; 
-	width: 920px; 
-	margin:10px 5px 10px 0; 
-	padding:5px 20px 5px 20px;
-	background-color: #f2ede7;
-	
-/* curved border radius */
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-
-/* columns */
-
-#content ul.column {
-	width: 100%;
-	padding: 0;
-	margin: 10px 0;
-	list-style: none;
-}
-
-#content ul.column li {
-	float: left;
-	width: 230px; /*Set default width*/
-	padding: 0;
-	margin: 5px 0;
-	display: inline;
-}
-
-#content .block {
-	height: 355px;
-	font-size: 1em;
-	margin-right: 10px; /*Creates the 10px gap between each column*/
-	padding: 20px;
-	background: #d6a965;
-/* curved border radius */
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-
-#content .block a {
-	color: #FFF;
-	}
-	
-#content .block img {
-  /*Flexible image size with border*/
-	width: 89%;  /*Took 1% off of the width to prevent IE6 bug*/
-	padding: 5%;
-	background:#fff;
-	margin: 0 auto;
-	display: block;
-	-ms-interpolation-mode: bicubic; /*prevents image pixelation IE 6/7 */
-	}
-/* end of column configuration */
-	
-/* footer */
-footer {
-	width: 960px;
-	clear: both;
-	color: #f2ede7;
-	overflow: hidden;
-	padding-top: 10px;
-	background-color: #271408;
-	/* curved border radius */
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	height: 200px;
-	margin-bottom: 10px;
-	}
-	
-footer section {
-width: 300px;
-float: left;
-padding: 0 10px;
-}
-
-footer section h2 {
-margin-top: 0;
-}
-
-footer section p {
-  font-size: 12px;
-	}
-
-footer section a {
-	color: #999;
-	}
-	
-footer section a:hover {
-	color: #FFF;
-	text-decoration: none;
-	}
 	
 /* for inner pages */
 
@@ -352,4 +257,12 @@ aside section ul li a:hover {
 	color: #fff;
 	}
 	
+nav.pagination{
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+ 
+	background: none;
+	}
+
 

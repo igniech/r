@@ -16,10 +16,11 @@
 	</header>
 	<nav>
 		<ul>
-			<li class="selected"><a href="">Strona GÅ‚Ã³wna</a></li>
+			<li class="selected"><a href="/"<%= I18n.t('site.title') %>>Strona G³ówna</a></li>
 			<li><a href="http://www.bomi.pl/">Bomi.pl</a></li>
 			<li><a href="http://www.siec34.pl/">SieÄ‡ 34</a></li>
 			<li><a href="http://www.rabatpomorze.pl/">Rabat Service</a></li>
+			
 			
 		</ul>
 	</nav>
@@ -68,7 +69,7 @@
 				</header>
 					<img src="images/2-thumb.jpg" alt="przerwa" /> <img src="images/6-thumb.jpg" alt="kawka" />
 					<br />
-					<img src="1-thumb.jpg" alt="odpoczynek" /> <img src="images/7-thumb.jpg" alt="wytchnienie" />
+					<img src="images/1-thumb.jpg" alt="odpoczynek" /> <img src="images/7-thumb.jpg" alt="wytchnienie" />
 					<br /><br />
 			</section>
 			

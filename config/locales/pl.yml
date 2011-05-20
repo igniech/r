@@ -1,0 +1,15 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+# Polish translations for Ruby on Rails
+# by Jacek Becela (jacek.becela@gmail.com, http://github.com/ncr)
+# Minor changes and adjustments for Rails 3 by Piotrek Okoński (http://github.com/pokonski)
+# Minor changes and adjustments by Paweł Chojnacki (https://github.com/chojnacki)
+pl:
+  views:
+    pagination:
+      previous: "&laquo"
+      next: "&raquo"
+      truncate: ""
+      last: "Ostatnia"
+      first: "Pierwsza"

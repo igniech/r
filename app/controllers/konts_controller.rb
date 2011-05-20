@@ -1,6 +1,7 @@
 class KontsController < ApplicationController
   def index
-    @konts = Kont.all
+    @konts = Kont.order("nazwisko").page(params[:page]).per(2)
+    
   end
 
   def show

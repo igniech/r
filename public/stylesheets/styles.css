@@ -105,7 +105,7 @@ nav ul li {
 nav ul li a {
 	display: block;
 	margin-right: 20px;
-	width: 140px;
+	width: 170px;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 44px;
@@ -257,4 +257,12 @@ aside section ul li a:hover {
 	color: #fff;
 	}
 	
+nav.pagination{
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+ 	margin: 2em 0;
+	background: none;
+	}
+
 
