@@ -1,6 +1,6 @@
 <% title "Konts" %>
 
-<table cellspacing="20">
+<table cellspacing="10">
   <tr>
     <th style="text-align: left">Imię</th>
     <th style="text-align: left">Nazwisko</th>
