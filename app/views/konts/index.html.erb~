@@ -1,6 +1,6 @@
 <% title "Konts" %>
 
-<table cellspacing="10">
+<table cellspacing="20">
   <tr>
     <th style="text-align: left">Imię</th>
     <th style="text-align: left">Nazwisko</th>
@@ -18,4 +18,6 @@
   <% end %>
 </table>
 
-<p><%= link_to "Dodaj kontakt", new_kont_path %></p>
+
+<p><%= paginate @konts %></p>
+<p style="text-align: right; font-size: 14px; font-weight: bold; margin: 2em 0;"><%= link_to "Dodaj kontakt", new_kont_path %></p>

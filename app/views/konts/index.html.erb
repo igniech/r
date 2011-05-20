@@ -21,3 +21,11 @@
 
 <p><%= paginate @konts %></p>
 <p style="text-align: right; font-size: 14px; font-weight: bold; margin: 2em 0;"><%= link_to "Dodaj kontakt", new_kont_path %></p>
+
+<%= form_tag konts_path, :method => :get, :id => "konts_search" do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
+

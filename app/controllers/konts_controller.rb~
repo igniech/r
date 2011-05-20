@@ -2,7 +2,7 @@ class KontsController < ApplicationController
   def index
     @konts = Kont.order("nazwisko").page(params[:page]).per(2)
     @konts = Kont.search(params[:search]).order(:nazwisko).page(params[:page]).per(2)
- 
+  respond_with(@konts)
     
   end
 

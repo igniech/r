@@ -15,5 +15,13 @@ class Kont < ActiveRecord::Base
   validates_uniqueness_of :mail
   validates_presence_of :miasto, :presence => true
 
+  def self.search(search)
+  	if search
+   	where('imie LIKE ? or nazwisko LIKE ? or stanowisko LIKE ? or telefon1 LIKE ? or telefon2 LIKE ? or miasto LIKE ?', "%#{search}%", "%#{search}%", "%#{search}%", "%#{search}%", "%#{search}%", "%#{search}%")
+        else
+  	  scoped
+        end
+  end
+  
 end
 
